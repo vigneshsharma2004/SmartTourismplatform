@@ -1,0 +1,21 @@
+footer a:hover {
+  text-decoration: underline;
+}
+/* REQUIRED for sticky footer */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+/* App layout */
+.app-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main content expands */
+.page-content {
+  flex: 1;
+}
+
